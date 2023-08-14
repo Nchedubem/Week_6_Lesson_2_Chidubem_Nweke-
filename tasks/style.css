@@ -1,0 +1,35 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #b19898;
+}
+
+.container {
+    margin: auto;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+#getLocationButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#getLocationButton:hover {
+    background-color: #3e8e41;
+}
+
+#location, #city, #country, #time, #altitude {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
