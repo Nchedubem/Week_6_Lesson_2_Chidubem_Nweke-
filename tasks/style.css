@@ -1,14 +1,14 @@
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #b19898;
+    background-color: #b65353;
 }
 
 .container {
     margin: auto;
     max-width: 500px;
     padding: 20px;
-    border: 1px solid #ccc;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #cccccc;
+    box-shadow: 0 2px 4px #0000001a;
 }
 
 h1 {
@@ -16,7 +16,7 @@ h1 {
 }
 
 #getLocationButton {
-    background-color: #4CAF50;
+    background-color: #c40f0f;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -25,11 +25,11 @@ h1 {
 }
 
 #getLocationButton:hover {
-    background-color: #3e8e41;
+    background-color: #523d8f;
 }
 
-#location, #city, #country, #time, #altitude {
+ #location, #city, #country, #time, #altitude {
     font-weight: bold;
     font-size: 16px;
     margin-bottom: 10px;
-}
+} 
